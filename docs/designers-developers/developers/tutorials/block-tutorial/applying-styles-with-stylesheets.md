@@ -100,7 +100,7 @@ Configure your plugin to use these new styles:
 function gutenberg_examples_02_register_block() {
 	wp_register_script(
 		'gutenberg-examples-02',
-		plugins_url( 'block.js', __FILE__ ),
+		plugins_url( 'build/index.js', __FILE__ ),
 		array( 'wp-blocks', 'wp-element' ),
 		filemtime( plugin_dir_path( __FILE__ ) . 'block.js' )
 	);
