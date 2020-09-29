@@ -44,7 +44,7 @@ function removeNavigationBlockSettingsUnsupportedFeatures( settings, name ) {
 				'anchor',
 				'customClassName',
 				'__experimentalColor',
-				'__experimentalFontSize',
+				'fontSize',
 			] ),
 			customClassName: false,
 		},

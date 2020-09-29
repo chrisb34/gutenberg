@@ -19,7 +19,7 @@
 		"__experimentalColor": {
 			"gradients": true
 		},
-		"__experimentalFontSize": true,
+		"fontSize": true,
 		"__experimentalLineHeight": true
 	}
 }

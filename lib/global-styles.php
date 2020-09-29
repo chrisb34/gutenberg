@@ -421,7 +421,7 @@ function gutenberg_experimental_global_styles_get_support_keys() {
 		'background'               => array( '__experimentalColor', 'gradients' ),
 		'backgroundColor'          => array( '__experimentalColor' ),
 		'color'                    => array( '__experimentalColor' ),
-		'fontSize'                 => array( '__experimentalFontSize' ),
+		'fontSize'                 => array( 'fontSize' ),
 		'lineHeight'               => array( '__experimentalLineHeight' ),
 	);
 }
@@ -484,7 +484,7 @@ function gutenberg_experimental_global_styles_get_block_data() {
 				array(
 					'supports' => array(
 						'__experimentalSelector' => ':root',
-						'__experimentalFontSize' => true,
+						'fontSize'               => true,
 						'__experimentalColor'    => array(
 							'linkColor' => true,
 							'gradients' => true,
